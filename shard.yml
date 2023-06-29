@@ -1,0 +1,29 @@
+name: 486f6148032effd46f7efb4e6a46a475100665cf
+version: 0.1.0
+
+authors:
+  - name guilhermetelesdev@gmail.com
+
+description: |
+  Processo Seletivo Milenio Capital - Code Challenge
+
+dependencies:
+  pg:
+    github: will/crystal-pg
+    version: ~> 0.26.0
+  jennifer:
+    github: imdrasil/jennifer.cr
+    version: "= 0.12.0"
+  dotenv:
+    github: drum445/dotenv
+  kemal:
+    github: kemalcr/kemal
+  micrate:
+    github: "amberframework/micrate"
+    version: "= 0.12.0"
+  
+development_dependencies:
+  webmock:
+    github: manastech/webmock.cr
+
+license: MIT

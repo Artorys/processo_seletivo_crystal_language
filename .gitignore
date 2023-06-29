@@ -1,0 +1,5 @@
+database.yml
+.env
+lib
+shard.lock
+structure.sql
